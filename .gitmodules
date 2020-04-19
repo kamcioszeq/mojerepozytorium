@@ -1,0 +1,3 @@
+[submodule "us_data"]
+	path = us_data
+	url = https://github.com/kamcioszeq/us_data.git
