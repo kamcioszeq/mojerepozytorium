@@ -1,17 +1,17 @@
 variable "aws_region" {
-	default = "eu-north-1"
+	default = "eu-central-1"
 }
 
 variable "instance_type" {
 	description = "Ami type"
 	type = string
-	default = "t3.micro" #"t3a.medium"
+	default = "t2.micro" #"t3a.medium"
 }
 
 variable "ami_id" {
 	description = "Ami used to create"
 	type = string
-	default = "ami-0b7a46b4bd694e8a6"
+	default = "ami-076431be05aaf8080"
 }
 
 variable "delete_on_termination" {
@@ -28,7 +28,7 @@ variable "ebs_volume_system_size" {
 }
 
 variable "ebs_volume_data_size" {
-	default = 12
+	default = 1
 	description = "size of data parti"
 }
 
