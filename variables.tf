@@ -28,7 +28,7 @@ variable "ebs_volume_system_size" {
 }
 
 variable "ebs_volume_data_size" {
-	default = 12
+	default = 1
 	description = "size of data parti"
 }
 
